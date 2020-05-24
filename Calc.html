@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript" src="js/Calc.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+     <title>Calculadora</title>
+</head>
+    <body>
+        <header>
+			<div class="container">
+				<h1 class="titulo">Leonardo da Silva Farias</h1>
+			</div>
+		</header>
+
+        <div id='conteudo'>
+            <p>O número será lido apenas 1 por vez logo digitando número com maiores casas decimais, o
+                 primeiro número será subistituido, porém será mantido em apenas uma casa de caracteres 
+                 antecedendo o sinal de operação.
+            </p>
+
+            <br>
+            
+            <p>Após o sinal da operação (-,+,/,*) número por número será contado da mesma forma 
+                exemplificada acima.
+            </p>
+         </div>
+
+         <br>
+
+         <div id='tela'>
+             <p id='txt'> </p>
+        </div>
+
+         <main id="form">
+            <button onclick="funcao('1')">1</button>
+            <button onclick="funcao('2')">2</button>
+            <button onclick="funcao('3')">3</button>
+            <button onclick="funcao('+')">+</button>
+            
+            <br>
+        
+            <button onclick="funcao('4')">4</button>
+            <button onclick="funcao('5')">5</button>
+            <button onclick="funcao('6')">6</button>
+            <button onclick="funcao('-')">-</button>
+            
+            <br>
+        
+            <button onclick="funcao('7')">7</button>
+            <button onclick="funcao('8')">8</button>
+            <button onclick="funcao('9')">9</button>
+            <button onclick="funcao('*')">*</button>
+            
+            <br>
+        
+            <button onclick="limpar()">c</button>
+            <button onclick="funcao('0')">0</button>
+            <button onclick="resultado()">=</button>
+            <button onclick="funcao('/')">/</button>
+         </main>  
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+
+        <footer>
+            <p class="copyright">&copy; Copyright Leonardo da Silva Farias DEV - 2020</p>
+        </footer>
+</body>
+</html>
